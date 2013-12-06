@@ -6,9 +6,11 @@ XEEAlertView is a wrapper around UIAlertView which provides simplified interface
 ```objc
 
 XEEAlertView* alertView = [XEEAlertView alertViewWithTitle:@"Are you sure?" message:@"You are about to test XEEAlertView. Proceed?" cancelButtonTitle:@"No" otherButtonTitles:@"Yes", @"Maybe", nil];
-    [alertView handleAction:^(int buttonIndex) {
-        NSLog(@"Button index pressed %d", buttonIndex);
-    }];
-    [alertView show];
+
+[alertView handleAction:^(int buttonIndex) {
+    NSLog(@"Button index pressed %d", buttonIndex);
+}];
+
+[alertView show];
 
 ```
