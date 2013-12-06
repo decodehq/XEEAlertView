@@ -17,3 +17,16 @@ XEEAlertView* alertView = [XEEAlertView alertViewWithTitle:@"Are you sure?" mess
 [alertView show];
 
 ```
+
+
+Contact
+================
+
+Follow XEETech on Twitter (<a href="https://twitter.com/XEE_Tech">XEE Tech</a>).
+
+Connect with us on LinkedIn (<a href="http://www.linkedin.com/company/xee-tech">@XEE_Tech</a>).
+
+
+License
+================
+XEEPluralizer is available under the MIT license. See the LICENSE file for more info.
